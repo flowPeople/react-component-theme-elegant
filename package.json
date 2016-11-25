@@ -1,0 +1,24 @@
+{
+  "name": "react-jsonresume-theme-elegant",
+  "version": "0.1.0",
+  "description": "elegant theme for jsonresume as react component https://github.com/mudassir0909/jsonresume-theme-elegant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "jsonresume",
+    "theme",
+    "elegant",
+    "react"
+  ],
+  "authors": [
+    "Iván Rodríguez <frivanrodriguez@gmail.com>", 
+    "David Soler <daviddsrperiodismo@gmail.com>"
+  ],
+  "license": "MIT"
+}
