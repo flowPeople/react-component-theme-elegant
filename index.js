@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainComponent from './components/MainComponent';
-const mainComponent = < MainComponent message="React Demo" / >;
+import ElegantTheme from './src/ElegantTheme';
+
+const mainComponent = < ElegantTheme message="React Demo" / >;
 
 ReactDOM.render(
     mainComponent,
-    document.querySelector('.js-app')
+    document.querySelector('.container'),
 );
-
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
-
-const element = <Welcome name="Sara" />;
