@@ -1,9 +1,8 @@
 language: node_js
 
 node_js:
-  - "6.6.0"
+  - 6.6.0
 
-# Use container-based Travis infrastructure.
 sudo: false
 
 branches:
@@ -16,8 +15,9 @@ script:
   - yarn install
   - npm run lint
   - npm run build
-
 notifications:
   slack:
+    rooms:
+      secure: D2QgtKeWRwhw8nhGq2/jQvBw7WfViRjJ1ipnP92GaOBx6ePIRfvN7lvaE+o9E81Vq+KRxxBG5ICvCd+fa3m2P5lOGmiuegPkP6RnXbxAljIl37IeNCV7NAxi18nIaJ+B1aYrD/yi1btC7O6kyU/u9HUu6/jLarmSlvMJ6PAlCFt1VLC9zdCT/taUV3fEz2MzQaXryi80eS+lvvPmsCKmRJapgfAjcIY0gpSS/Z6usk5aJutI+R2ydJj4xf4tk/bn6I0Ig3D5gaYzHqderlwlCvDDzHzv0wwZOTTl1X9JWV92IME+0opM0zt2FSJw64HK/qd/U7JSzdgH8iPkpAhzjPIYZAW6m7Fv0i7PyBo4sGM2+/9XxjYDpIV7NII0WJu6OQ/lpodAB3tz2GI2fdCYCKRWu9CnDmIfp7fLHcaGwymewmRmfKG1bhF7OlTZ++x1Hmr4tY3EQfgPRw+LxwHmoYhsRECo2oe3VoNKrnYErJXvtzzgFpfuZopvsmiRnsOCgcYuuWisQJRpCcg6FL/KOOnD0h7olbFe+qkWRm+xtpZEBif3giXI2HeEyWAEatWmRICsJjdRx9RU64naWnPm12j5GEOM5DxrXsNgvkE2pAFnYROQIgKBxOIvIxYe+PUrT5QurGV0Z7lQIEGGISk1a5BtIODdfrR8xcd1z7yiuPo=
     on_success: always
     on_failure: always
