@@ -16,3 +16,8 @@ script:
   - yarn install
   - npm run lint
   - npm run build
+
+notifications:
+  slack:
+    on_success: always
+    on_failure: always
