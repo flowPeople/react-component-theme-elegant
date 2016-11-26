@@ -21,6 +21,11 @@
     "David Soler <daviddsrperiodismo@gmail.com>"
   ],
   "license": "MIT",
+  "scripts": {
+    "babel": "babel",
+    "webpack": "webpack",
+    "lint": "eslint src/**/*.{jsx,js}"
+  },
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
